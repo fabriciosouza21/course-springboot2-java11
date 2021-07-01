@@ -10,8 +10,6 @@ import org.springframework.context.annotation.Profile;
 import com.fsm.entities.User;
 import com.fsm.repositories.UserRepository;
 
-import ch.qos.logback.core.status.StatusListenerAsList;
-
 @Configuration
 @Profile("test")
 public class TestConfig implements CommandLineRunner {
