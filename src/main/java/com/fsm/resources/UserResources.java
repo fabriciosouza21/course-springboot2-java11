@@ -13,7 +13,7 @@ import com.fsm.entities.User;
 import com.fsm.services.UserServices;
 
 @RestController
-@RequestMapping(value = "/user")
+@RequestMapping(value = "/users")
 public class UserResources {
 	
 	@Autowired
